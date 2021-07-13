@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Comment=
+StartupNotify=true
+Terminal=true
+Hidden=false
+
+Name=VoiceControl
+
+Exec=lxterminal -t VoiceControl --working-directory=/home/pi/Desktop/PythonVC -e python3 main.py
